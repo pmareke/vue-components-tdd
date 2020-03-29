@@ -13,8 +13,9 @@ This repo uses the awesome library [Tailwind CSS](https://tailwindcss.com/) for 
  - Rating [(inspired by Sarah Dayan)](https://www.youtube.com/watch?v=DD1fEhcEzY8)
  - Notification
  - Search Box
+ - Select
 
-![Components](images/components.png)
+![Components](images/components_I.png)
 
 ## Run the project
 ```
