@@ -1,16 +1,33 @@
 <template>
   <div id="app">
-    <div class="counter flex flex-col">
+    <div class="counter mb-4 flex flex-col">
       <h1 class="mb-4">Counter</h1>
       <Counter class="flex-1 p-4 border-gray-700 border border-solid rounded-sm"/>
     </div>
-    <div class="file-uploader flex flex-col">
+    <div class="file-uploader mb-4 flex flex-col">
       <h1 class="mb-4">FileUploader</h1>
       <FileUploader class="flex-1 p-4 border-gray-700 border border-solid rounded-sm" :files="files" :progress="33"/>
     </div>
-    <div class="rating flex flex-col">
+    <div class="rating mb-4 flex flex-col">
       <h1 class="mb-4">Rating</h1>
       <Rating :stars="{max: 5, score: 3}" class="flex-1 p-4 border-gray-700 border border-solid rounded-sm"/>
+    </div>
+    <div class="mb-4 border-gray-700 border border-solid rounded-sm text-sm p-4 flex flex-col row">
+      <h1 class="mb-4 w-full text-base">Notification</h1>
+      <div class="notifications flex">
+        <div class="notification flex flex-col flex-grow mb-4">
+          <Notification :notification="{type: 'alert', title: 'Danger', message: 'Something went wrong.'}"
+                        class="flex-1 px-4"/>
+        </div>
+        <div class="notification flex flex-col flex-grow mb-4">
+          <Notification :notification="{type: 'warning', title: 'Alert', message: 'Something went wrong.'}"
+                        class="flex-1 px-4"/>
+        </div>
+        <div class="notification flex flex-col flex-grow mb-4">
+          <Notification :notification="{type: 'success', title: 'OK', message: 'Something went wrong.'}"
+                        class="flex-1 px-4"/>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -18,6 +35,7 @@
 <script lang="ts">
   import Counter from '@/components/Counter.vue';
   import FileUploader from '@/components/FileUploader.vue';
+  import Notification from '@/components/Notification.vue';
   import Rating from '@/components/Rating.vue';
   import { Component, Vue } from 'vue-property-decorator';
 
@@ -25,7 +43,8 @@
     components: {
       FileUploader,
       Counter,
-      Rating
+      Rating,
+      Notification
     }
   })
   export default class App extends Vue {
@@ -54,5 +73,9 @@
     grid-column-gap: 20px;
     margin: 60px auto 0px auto;
     max-width: 1100px;
+  }
+
+  .row {
+    grid-column: 1/4;
   }
 </style>
