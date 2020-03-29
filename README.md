@@ -12,9 +12,9 @@ This repo uses the awesome library [Tailwind CSS](https://tailwindcss.com/) for 
  - File Uploader [(inspired by Sarah Dayan)](https://www.youtube.com/watch?v=OPWcqgqiJao)
  - Rating [(inspired by Sarah Dayan)](https://www.youtube.com/watch?v=DD1fEhcEzY8)
  - Notification
- - Search Box (**PENDING**)
+ - Search Box
 
-![Components](images/components_II.png)
+![Components](images/components.png)
 
 ## Run the project
 ```
