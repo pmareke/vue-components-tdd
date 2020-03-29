@@ -1,0 +1,4 @@
+{
+  "port": 9999,
+  "baseUrl": "http://localhost:8080"
+}
