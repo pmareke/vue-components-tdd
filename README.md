@@ -12,7 +12,7 @@ This repo uses the awesome library [Tailwind CSS](https://tailwindcss.com/) for 
  - File Uploader [(inspired by Sarah Dayan)](https://www.youtube.com/watch?v=OPWcqgqiJao)
  - Rating [(inspired by Sarah Dayan)](https://www.youtube.com/watch?v=DD1fEhcEzY8)
 
-![Components](images/components.png)
+![Components](images/components_II.png)
 
 ## Run the project
 ```
