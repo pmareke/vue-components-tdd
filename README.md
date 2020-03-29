@@ -14,7 +14,6 @@ This repo uses the awesome library [Tailwind CSS](https://tailwindcss.com/) for 
 
 ![Components](images/components.png)
 
-
 ## Run the project
 ```
 yarn install // npm install
