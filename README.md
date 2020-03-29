@@ -11,6 +11,8 @@ This repo uses the awesome library [Tailwind CSS](https://tailwindcss.com/) for 
  - Counter [(inspired by Adri Fontcuberta)](https://www.youtube.com/watch?v=DD1fEhcEzY8)
  - File Uploader [(inspired by Sarah Dayan)](https://www.youtube.com/watch?v=OPWcqgqiJao)
  - Rating [(inspired by Sarah Dayan)](https://www.youtube.com/watch?v=DD1fEhcEzY8)
+ - Notification
+ - Search Box (**PENDING**)
 
 ![Components](images/components_II.png)
 
